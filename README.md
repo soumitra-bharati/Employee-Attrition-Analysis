@@ -1,9 +1,8 @@
-# Employee-Attrition-Analysis
-Employee Attrition Prediction & Analysis
+# Employee Attrition Prediction & Analysis
 This project analyzes the IBM HR Analytics Employee Attrition dataset to identify key factors that drive employee turnover. It includes a comprehensive exploratory data analysis (EDA), the development of a predictive machine learning model, and a set of data-driven recommendations for retention strategies.
 
 
-Dataset
+**Dataset** 
 The analysis uses the public IBM HR Analytics Employee Attrition dataset from Kaggle.
 
 It comprises 1,470 employee records with 35 features.
