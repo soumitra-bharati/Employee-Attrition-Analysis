@@ -2,21 +2,15 @@
 This project analyzes the IBM HR Analytics Employee Attrition dataset to identify key factors that drive employee turnover. It includes a comprehensive exploratory data analysis (EDA), the development of a predictive machine learning model, and a set of data-driven recommendations for retention strategies.
 
 
-**Dataset** 
-The analysis uses the public IBM HR Analytics Employee Attrition dataset from Kaggle.
+### Dataset 
+- The analysis uses the public IBM HR Analytics Employee Attrition dataset from Kaggle.
+- It comprises 1,470 employee records with 35 features.
+- The target variable, Attrition, is binary ("Yes"/"No") and shows a severe class imbalance, with 84% of employees retained and 16% having left.
 
-It comprises 1,470 employee records with 35 features.
-
-The target variable, 
-
-Attrition, is binary ("Yes"/"No") and shows a severe class imbalance, with 84% of employees retained and 16% having left.
-
-Project Workflow
+### Project Workflow
 Data Cleaning and Preprocessing: The dataset was prepared for modeling through several steps:
-
-The data was checked for null values and duplicates, none of which were found.
-
-Binary features like 
+- The data was checked for null values and duplicates, none of which were found.
+- Binary features like 
 
 Gender and OverTime were label-encoded.
 
