@@ -46,7 +46,7 @@ Demographics: Attrition is higher among males, who constitute 63% of attrition c
 
 Predictive Modeling:
 
-Logistic Regression model was selected for its interpretability in forecasting attrition risk.
+Random Forest Classifer model was selected for its interpretability in forecasting attrition risk.
 
 The model was trained on the oversampled and scaled dataset.
 
@@ -57,15 +57,15 @@ joblib for potential deployment.
 Model Performance
 The model achieved an overall 
 
-accuracy of 73% on the test set. The performance for predicting which employees will leave (
+accuracy of 96% on the test set. The performance for predicting which employees will leave (
 
 Attrited class) is as follows:
 
-Precision: 0.74 
+Precision: 0.96 
 
-Recall: 0.71 
+Recall: 0.95 
 
-F1-Score: 0.72 
+F1-Score: 0.96 
 
 Recommendations for Retention
 Based on the analysis, the following retention strategies are recommended:
